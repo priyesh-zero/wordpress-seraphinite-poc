@@ -1,7 +1,3 @@
-Here is the plain text version of your `README.md`:
-
----
-
 # WordPress PoC with Seraphinite Accelerator in Docker
 
 This is a Proof of Concept (PoC) for a **WordPress** site enhanced with the **Seraphinite Accelerator** to improve site performance. The setup is containerized using **Docker**, with a **MySQL** server as the database backend.
