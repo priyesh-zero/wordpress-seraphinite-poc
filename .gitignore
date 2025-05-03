@@ -1,0 +1,47 @@
+db/
+# WordPress-specific
+site/wp-content/uploads/
+site/wp-content/cache/
+site/wp-content/backups/
+site/wp-content/upgrade/
+site/wp-content/themes/*/node_modules/
+site/wp-content/plugins/*/node_modules/
+
+# WordPress core files
+site/wp-admin/
+site/wp-includes/
+site/wp-config.php
+site/wp-config-sample.php
+
+# WordPress temporary files
+site/wp-content/debug.log
+
+# OS-specific files
+site/.DS_Store
+site/Thumbs.db
+
+# Logs
+site/*.log
+site/*.sql
+
+# IDE/Editor files
+site/.vscode/
+site/.idea/
+site/*.sublime-project
+site/*.sublime-workspace
+
+# Composer
+site/composer.phar
+site/composer.lock
+
+# npm (if using Node.js for frontend tasks)
+site/node_modules/
+
+# Mac-specific files
+site/*.swp
+site/*~
+
+# PHPUnit files
+site/phpunit.xml
+site/phpunit.xml.dist
+
